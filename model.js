@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const database = 'mongodb+srv://Chaitanya:Chaitanya%40mongo@mappy.vkpvu2y.mongodb.net/subscriptions';
+const database = 'REPLACE WITH MOBGODB URI';
 
 mongoose.createConnection(database, {
     useNewUrlParser: true,
